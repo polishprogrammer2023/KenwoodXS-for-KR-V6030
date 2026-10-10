@@ -1,7 +1,5 @@
-// SPDX-License-Identifier: Apache-2.0
-
 #include <Arduino.h>
-#include <KenwoodXS.h>
+#include <KenwoodXS-for-KR-V6030.h>
 
 const int CTRL_PIN = 3;
 const int SDAT_PIN = 2;
