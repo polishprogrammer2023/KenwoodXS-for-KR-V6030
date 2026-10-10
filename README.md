@@ -96,7 +96,7 @@ example is available in
 ## Basic Usage
 
 ```cpp
-#include <KenwoodXS.h>
+#include <KenwoodXS-for-KR-V6030.h>
 
 const int CTRL_PIN = 3;
 const int SDAT_PIN = 2;
@@ -122,7 +122,7 @@ void loop() {
 ## Receiving Commands
 
 ```cpp
-#include <KenwoodXS.h>
+#include <KenwoodXS-for-KR-V6030.h>
 
 const int CTRL_PIN = 3;
 const int SDAT_PIN = 2;
@@ -236,7 +236,7 @@ KenwoodXS/
 
 ## License
 
-KenwoodXS is licensed under the Apache License, Version 2.0. See
+KenwoodXS-for-KR-V6030 is licensed under the MIT License. See
 [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
 ## Credits
