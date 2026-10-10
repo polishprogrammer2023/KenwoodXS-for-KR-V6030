@@ -43,7 +43,7 @@ remote can drive the bus. If you are connecting to 5 V Kenwood equipment from a
 1. Download this repository as a ZIP file.
 2. In Arduino IDE, select **Sketch > Include Library > Add .ZIP Library...**.
 3. Select the downloaded ZIP file.
-4. Open **File > Examples > KenwoodXS** and choose an example.
+4. Open **File > Examples > KenwoodXS-for-KR-V6030** and choose an example.
 
 ### PlatformIO
 
