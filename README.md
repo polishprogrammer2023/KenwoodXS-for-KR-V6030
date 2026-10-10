@@ -1,11 +1,11 @@
-# KenwoodXS
+# KenwoodXS-for-KR-V6030
 
-KenwoodXS is an Arduino library for controlling and monitoring compatible
+KenwoodXS-for-KR-V6030 is an Arduino library for controlling and monitoring compatible
 Kenwood audio equipment over the proprietary Kenwood XS System Control bus.
 
 The library can send raw command bytes and includes named helpers for common
 receiver, tape deck, and CD player commands discovered from Kenwood
-KR-A5030 / RC-5030 and KX-3050 hardware.
+KR-V6030 hardware.
 
 ## Features
 
