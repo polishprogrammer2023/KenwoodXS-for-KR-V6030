@@ -1,0 +1,20 @@
+KenwoodXS-for-KR-V6030
+
+This project contains modifications and patches to the original KenwoodXS
+Arduino library by Gaweł Bartosik. It is not a complete rewrite of the original library.
+
+The modifications focus on improving command reception timing and
+supporting testing and control of the Kenwood KR-V6030 receiver.
+
+The original KenwoodXS library and its existing components retain their
+respective authorship and applicable license terms.
+
+Protocol timing notes and command references are based on publicly
+available reverse-engineering notes by Olaf Such, originally posted
+to de.sci.electronics in 1997.
+
+This project was also informed by prior Kenwood XS protocol exploration
+in pyKenwoodXS by Joseph Madera and saproj.
+
+Third-party software and references remain subject to their respective
+license terms.

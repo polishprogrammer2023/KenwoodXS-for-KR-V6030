@@ -1,0 +1,21 @@
+{
+  "name": "KenwoodXS-for-KR-V6030",
+  "version": "1.0.0",
+  "description": "Fixed version of the KenwoodXS lib by gaweueu.",
+  "keywords": ["kenwood", "audio", "receiver", "system-control", "arduino"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polishprogrammer2023/KenwoodXS-for-KR-V6030.git"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Programowanie i Granie",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": ["KenwoodXS-for-KR-V6030.h"],
+  "examples": ["examples/*/*.ino"]
+}
