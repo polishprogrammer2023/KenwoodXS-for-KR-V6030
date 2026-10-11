@@ -35,7 +35,7 @@ enum KenwoodXSCommand {
     NUMPAD_6     = 0xE9,
     NUMPAD_7     = 0xE1,
     NUMPAD_8     = 0xEE,
-    NUMPAD_9     = 0xE6
+    NUMPAD_9     = 0xE6,
     PLUS_10      = 0xA4,
 
     // Tape A Controls
