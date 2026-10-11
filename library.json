@@ -1,6 +1,6 @@
 {
   "name": "KenwoodXS-for-KR-V6030",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fixed version of the KenwoodXS lib by gaweueu.",
   "keywords": ["kenwood", "audio", "receiver", "system-control", "arduino"],
   "repository": {
