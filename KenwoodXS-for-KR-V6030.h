@@ -42,15 +42,15 @@ enum KenwoodXSCommand {
     TB_REWIND_SLOW  = 0x4E, // don't want to setup my KX-W4080
 
     // CD Controls
-    CD_PLAY_PAUSE   = 0xC2, // don't have a XS CD player
-    CD_STOP         = 0xC6, // don't have a XS CD player
-    CD_DISC         = 0xAE, // don't have a XS CD player
-    CD_FAST_FORWARD = 0xA1, // don't have a XS CD player
-    CD_REWIND       = 0xA9, // don't have a XS CD player
-    CD_NEXT_TRACK   = 0xC0, // don't have a XS CD player
-    CD_PREV_TRACK   = 0xC8, // don't have a XS CD player
-    CD_SCRUB_STOP   = 0xB1, // don't have a XS CD player
-    CD_START        = 0x7D  // don't have a XS CD player
+    CD_PLAY_PAUSE   = 0xC2, // don't have a XS CD player, planning to buy DP-1050
+    CD_STOP         = 0xC6, // don't have a XS CD player, planning to buy DP-1050
+    CD_DISC         = 0xAE, // don't have a XS CD player, planning to buy DP-1050
+    CD_FAST_FORWARD = 0xA1, // don't have a XS CD player, planning to buy DP-1050
+    CD_REWIND       = 0xA9, // don't have a XS CD player, planning to buy DP-1050
+    CD_NEXT_TRACK   = 0xC0, // don't have a XS CD player, planning to buy DP-1050
+    CD_PREV_TRACK   = 0xC8, // don't have a XS CD player, planning to buy DP-1050
+    CD_SCRUB_STOP   = 0xB1, // don't have a XS CD player, planning to buy DP-1050
+    CD_START        = 0x7D  // don't have a XS CD player, planning to buy DP-1050
 };
 
 enum KenwoodXSMode {
