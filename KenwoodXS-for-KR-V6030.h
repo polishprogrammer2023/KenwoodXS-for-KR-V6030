@@ -42,6 +42,7 @@ enum KenwoodXSCommand {
     TB_REWIND_SLOW  = 0x4E, // don't want to setup my KX-W4080
 
     // CD Controls
+    // TODO: buy DP-1050
     CD_PLAY_PAUSE   = 0xC2, // don't have a XS CD player, planning to buy DP-1050
     CD_STOP         = 0xC6, // don't have a XS CD player, planning to buy DP-1050
     CD_DISC         = 0xAE, // don't have a XS CD player, planning to buy DP-1050
