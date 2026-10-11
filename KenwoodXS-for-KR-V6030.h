@@ -8,20 +8,35 @@
 // Kenwood XS System Control Commands
 enum KenwoodXSCommand {
     // Power & Miscellaneous
-    POWER_ON     = 0xB5, // works
-    POWER_OFF    = 0xB9, // works
-    BAND         = 0xBE, // works
-    PLUS_10      = 0xA4, // idk how to test it
+    POWER_ON     = 0xB5, // It works
+    POWER_OFF    = 0xB9, // It works
+    BAND         = 0xBE, // It works
 
     // Input Selection
-    TAPE_2_ON    = 0x14, // same status as phono
-    TAPE_2_OFF   = 0x18, // same status as phono
-    VIDEO_2      = 0x71, // same as phono
+    TAPE_2_ON    = 0x14, // Same effect as PHONO
+    TAPE_2_OFF   = 0x18, // Same effect as PHONO
+    VIDEO_2      = 0x71, // Same effect as PHONO
     PHONO        = 0x73, // unknown, KR-6030 sends it, but when sending it to it does nothing
-    TAPE_1       = 0x5E, // works
-    VIDEO_1      = 0x7A, // same as phono
-    TUNER        = 0xBE, // same as band
-    CD            = 0xDE, // works
+    TAPE_1       = 0x5E, // It works
+    VIDEO_1      = 0x7A, // Same effect as PHONO
+    BAND         = 0xBE, // Radio Tuner - working
+    TUNER        = 0xBE, // Same case as band
+    CD           = 0xDE, // It works
+
+    // TODO: check these commands
+
+    // Number keys - untested, because I don't know how to test them
+    NUMPAD_0     = 0xEF,
+    NUMPAD_1     = 0xE7,
+    NUMPAD_2     = 0xEB,
+    NUMPAD_3     = 0xE3,
+    NUMPAD_4     = 0xED,
+    NUMPAD_5     = 0xE5,
+    NUMPAD_6     = 0xE9,
+    NUMPAD_7     = 0xE1,
+    NUMPAD_8     = 0xEE,
+    NUMPAD_9     = 0xE6
+    PLUS_10      = 0xA4,
 
     // Tape A Controls
     TA_FAST_FORWARD = 0x43, // don't want to setup my KX-W4080
