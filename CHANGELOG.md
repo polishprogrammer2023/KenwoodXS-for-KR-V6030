@@ -8,3 +8,6 @@ Discovered that KR-V6030 also sends numpad commands
 
 ## Version 1.0.2
 Hotfix, added a comma after NUMPAD_9
+
+## Version 1.0.3
+Hotfix, removed duplicated BAND command declaration
