@@ -10,7 +10,6 @@ enum KenwoodXSCommand {
     // Power & Miscellaneous
     POWER_ON     = 0xB5, // It works
     POWER_OFF    = 0xB9, // It works
-    BAND         = 0xBE, // It works
 
     // Input Selection
     TAPE_2_ON    = 0x14, // Same effect as PHONO
